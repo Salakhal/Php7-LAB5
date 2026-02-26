@@ -21,7 +21,8 @@ $daoEtu = new EtudiantDao($journal);
 
 function afficherTest(string $etape, $resultat): void {
     $val = is_scalar($resultat) ? $resultat : json_encode($resultat, JSON_UNESCAPED_UNICODE);
-    echo "--> TEST [{$etape}] : {$val}\n";
+    // On a remplacé \n par <br><br> pour que le navigateur saute la ligne
+    echo "<strong>--> TEST [{$etape}] :</strong> {$val} <br><br>";
 }
 
 // ==== TEST FILIERE ====
