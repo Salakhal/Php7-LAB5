@@ -1,0 +1,6 @@
+[2026-02-26 11:16:48] ERREUR : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'CNE554433' for key 'unique_cne_etu' | details={"email":"sara.benali@email.com"}
+[2026-02-26 11:16:51] ERREUR : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'CNE554433' for key 'unique_cne_etu' | details={"email":"sara.benali@email.com"}
+[2026-02-26 11:22:13] ERREUR : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'CNE554433' for key 'unique_cne_etu' | details={"email":"sara.benali@email.com"}
+[2026-02-26 11:23:49] ERREUR : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'CNE1772105029' for key 'unique_cne_etu' | details={"email":"sara.1772105029@email.com"}
+[2026-02-26 11:23:49] ERREUR : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'MED' for key 'unique_code_fil' | details={"action":"insert_filiere"}
+[2026-02-26 11:29:05] ERREUR : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'CNE1772105345' for key 'unique_cne_etu' | details={"email":"sara.1772105345@email.com"}
